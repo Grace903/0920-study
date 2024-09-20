@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "javascript",
+			"path": ".."
+		},
+		{
+			"name": "flask2",
+			"path": "../../flask2"
+		},
+		{
+			"path": "../../git"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "javascript"
+	}
+}

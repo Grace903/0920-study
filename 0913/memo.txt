@@ -1,0 +1,10 @@
+// 변수
+let a = 10;
+
+// 상수
+const B = 20;
+
+
+html 파일 우클릭 - Open with Live Server 클릭 - 개발자도구 - console
+
+const : 상수, 객체(object) 형태의 내용물은 바꿀 수 있음

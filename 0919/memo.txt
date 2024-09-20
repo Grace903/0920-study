@@ -1,0 +1,82 @@
+new, 생성자
+함수명 첫 글자가 대문자, 생성할 땐 new 키워드로 생성
+
+function User(name, age) {
+
+}
+
+
+파이썬의 f스트링과 같은 기능:
+('${변수} 변수명');
+console.log('${this.name} 안녕');
+
+
+DOM :
+JS는 HTML의 요소와 속성 추가, 수정, 삭제 가능
+CSS 추가, 수정, 삭제 가능
+이벤트 추가, 수정, 삭제 가능
+
+document.body.style.background = 'red'
+: 배경색 바꾸기
+
+div 태그 >
+document.body.append(divTag);
+append : 맨뒤(자식)에 추가, HTML상에 표시되게 해줌
+prepend : 맨 앞에 추가
+before : 이전에 추가
+after : 이후에 추가
+
+beforebegin : 해당 태그 앞에
+afterbegin : 해당 태그 첫번째 자식
+beforeend : 해당 태그 마지막 자식
+afterend : 해당 태그 뒤에
+
+태그 지우기 >
+divTag.remove();
+setTimeout(콜백함수, 시간);
+
+setTimeout(() => {
+  divTag.remove();
+}, 3000);
+
+
+개발자도구 (로컬 스토리지) >
+set, get, remove
+
+console 창에 입력 >
+localStorage.getItem('arr')
+localStorage.setItem('name', 'kim')
+localStorage.removeItem('name')
+
+Application > localStorage 확인
+
+parse : json에서 역직렬화에 사용하는 함수 
+
+
+
+장바구니 담기 누르면 console에 입력한 상품명과 개수가 뜨게 작업)
+
+js 문법 > 
+버튼에 이벤트를 심는 방법 : 이벤트 리스너
+document.querySelectorAll('.cart')[0].addEventListener('click', () => {
+alert('클릭');
+let name = e.target.previousElementSibling.previousElementSibling;
+console.log(name);
+})
+
+jQuery 문법 >
+$('.cart').on('click', (e) => {
+let name = $(e.target).siblings('h5').text();
+console.log(name);
+})
+
+
+
+
+
+
+
+
+
+
+
