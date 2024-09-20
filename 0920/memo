@@ -1,0 +1,38 @@
+< 이벤트 >
+click, dblclick(더블클릭)
+mouseover, mouseout, mouseup, mousedown, mousemove
+keydown, keyup
+
+이벤트리스너 작성법:
+해당요소.addEventListener('이벤트종류', 콜백함수)
+
+
+< 버블링 >
+: 특정 요소(태그)에 이벤트 발생 ->
+해당 요소에 설정된 이벤트핸들러 실행 -> 
+부모 요소로 넘어가서 부모 요소의 핸들러가 실행 ->
+최상위 요소까지 올라가면 핸들러가 실행됨
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
